@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+    <link rel="icon" type="image/png" href="{{url_for('static', filename='CS.png')}}" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='MainCss.css')}}"/>
+    <title>Tyler Bobik</title>
+    <meta name="description" content="Tyler's stuff" />
+</head>
+<body>
+    <h1 class="header">
+        {% block header %}{% endblock %}
+    </h1>
+    <div class="wrapper">
+        <div class="nav">
+            <ul>
+                <li><a href="{{url_for('home')}}">Home</a></li>
+                <li><a href="{{url_for('github')}}">GitHub</a></li>
+                <li><a href="{{url_for('skills')}}">Skills</a></li>
+            </ul>
+            <img src="{{url_for('static', filename='CSTower.gif')}}" alt="Tower picture">
+        </div>
+        <div class="rightcolumn">
+            {% block body %}{% endblock %}
+        </div>
+        <div class="footer">
+			I do computer stuff<br />
+		</div>
+    </div>
+</body>
