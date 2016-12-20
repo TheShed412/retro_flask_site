@@ -5,7 +5,7 @@
     <title>Tyler Bobik</title>
     <meta name="description" content="Tyler's stuff" />
 </head>
-<body>
+<body style="background-image:url({{ url_for('static',filename='CSsiteBackground.png') }})">
     <h1 class="header">
         {% block header %}{% endblock %}
     </h1>
@@ -26,3 +26,4 @@
 		</div>
     </div>
 </body>
+</html>

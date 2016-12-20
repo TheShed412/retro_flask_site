@@ -2,7 +2,6 @@ body{
 	background-color: #bfb7a3;
     font-family: Consolas, sans-serif;
     color: #330000;
-    background-image:url(Images/CSsiteBackground.png);
 	}
 .header  {
     text-align: center;
@@ -25,13 +24,13 @@ body{
 	.nav a:hover{color:#007400;}
 	.nav ul{list-style-type: none;}
 .footer{
-	background-color: #bfb7a3; 
+	background-color: #bfb7a3;
 	color: #000000;
 	font-size:.60em;
 	text-align: center;
 	font-style: italic;
     padding: 20px 10px 20px 10px;
-    
+
 	}
 .wrapper{
 	width: 80%;
@@ -76,7 +75,7 @@ img
     color:#000000;
     overflow: auto;
 }
-.floatleft 
+.floatleft
 {
     float:left;
     padding-right: 10px;
@@ -106,5 +105,3 @@ input
     display: block;
     margin: 0 0 20px 0;
 }
-
- 
