@@ -1,4 +1,9 @@
 {% extends "layout.html" %}
 {% block header %}
-    <img src="{{url_for('static', filename='GitHubBanner.gif')}}" alt="">
+    <img src="{{url_for('static', filename='HomeBanner.gif')}}" alt="Home">
+{% endblock %}
+{% block body %}
+    <p class="pads">
+        Home Stuff
+    </p>
 {% endblock %}
